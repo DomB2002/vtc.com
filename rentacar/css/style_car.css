@@ -1,0 +1,105 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    width: 100%;
+    margin: 0 auto;
+ /*   border: 1px solid red;*/
+}
+
+
+header{
+ /*   border: 1px green solid;*/
+    margin: 0 auto;
+
+}
+
+.navbar{
+
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.navbar-brand{
+
+    font-size: 2em;
+    font-weight: bold;
+    margin: 0;
+}
+.card{
+    position: relative;
+}
+
+
+.card-text{
+    color: white;
+    font-size: 4em;
+    text-align: center;
+}
+
+.card-text-petit{
+    color: white;
+    font-size: 2em;
+    text-align: center;
+}
+
+.form-inline{
+/*    border: 3px yellow dashed;*/
+    position: absolute;
+    bottom: 5%;
+    right: 40%;
+    background-color: rgba(156, 159, 174, .8);
+}
+
+main{
+    width: 80%;
+    margin: 0 auto;
+/*    height: 300px; !*A RETIRER *!*/
+}
+
+article{
+ /*   border: 2px purple solid;
+    height: 150px;!*temporaire*!*/
+    display: flex;
+}
+
+.offreVoiture{
+    border-bottom: 1px gainsboro solid;
+}
+.offreVoiture:first-child{
+    font-size: 1.3em;
+}
+
+.prix{
+    font-size: 1.6em;
+}
+.resultats{
+    font-size: 2.5em;
+}
+.btn-lg{
+    margin-top: 2em;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon{
+  background-color: black;
+}
+
+
+footer{
+/*    border: 1px hotpink solid;*/
+  /*  height: 300px; !*A RETIRER *!*/
+    width: 50%;
+    margin: 0 auto;
+}
+.agence{
+    width: 60%;
+    margin: 2em;  }
+
+
+address{
+    text-align: justify;
+    font-size: 1.3em;
+}
+
+address>a{
+    font-size: 1.3em;
+
+}
